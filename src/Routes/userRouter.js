@@ -10,7 +10,7 @@ const userRouter = express.Router();
 
 userRouter.get("/profile", profile);
 userRouter.post("/register", signup);
-userRouter.get("/login", login);
+userRouter.post("/login", login);
 userRouter.get("/update", update);
 
 export default userRouter;
